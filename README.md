@@ -15,7 +15,10 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 Technologies used
 ## Redux Tool Kit, Material Ui, Firebase - For SignIn, SignUp & LogOut
-## Used 'https://newsapi.org' api to fetch news
+## Used 'https://newsapi.org' api to fetch news 
+Newsapi changed their pricing model.
+We can't make requests from the browser anymore therefore upon hosting on netlify it is not working anymore.
+## Netlify Link - https://newss-appp.netlify.app
 ## Different views are
 
 1) Signin - <img width="374" alt="signIn" src="https://github.com/chandannath500/newsapp/assets/46443346/7711d873-964b-4cb4-9eea-cbf49f8b380c">
