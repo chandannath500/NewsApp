@@ -24,4 +24,4 @@ Technologies used
 4) List View - <img width="953" alt="ListView" src="https://github.com/chandannath500/newsapp/assets/46443346/c28d0580-be5f-4156-bf65-589b3ba22c0f">
 5) Grid View - <img width="955" alt="gridView" src="https://github.com/chandannath500/newsapp/assets/46443346/17dc080a-0666-4b74-bd25-4282f2b83659">
 6) Mobile View - <img width="318" alt="MobileView" src="https://github.com/chandannath500/newsapp/assets/46443346/62563f44-aa79-48d4-8951-11713543ce8c">
-7) Modal View - <img width="955" alt="ModalView" src="https://github.com/chandannath500/newsapp/assets/46443346/4bf270f6-08fd-48f5-8f4a-cd87413def62">
+7) Modal View - <img width="929" alt="ModalView" src="https://github.com/chandannath500/newsapp/assets/46443346/db915619-a0f1-4f30-98ab-2f12cac71991">
