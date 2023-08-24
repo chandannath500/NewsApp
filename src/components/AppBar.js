@@ -4,11 +4,11 @@ import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
-import ExitToAppIcon from '@mui/icons-material/ExitToApp'; // Import the ExitToApp icon
+import ExitToAppIcon from '@mui/icons-material/ExitToApp';
 import { database } from './FirebaseConfig';
 import { useNavigate } from "react-router-dom";
 import { signOut } from "firebase/auth";
-import NewsLogo from '../asset/news-logo.png'; // Import the image
+import NewsLogo from '../asset/news-logo.png'; 
 
 export default function ButtonAppBar() {
   const history = useNavigate();
