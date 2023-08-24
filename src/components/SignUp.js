@@ -37,8 +37,8 @@ export default function SignUp() {
       console.log(authData);
       navigate('/');
     } catch (err) {
-      setSnackbarMessage(err.code); // Set the error message in the state
-      setSnackbarOpen(true); // Open the Snackbar
+      setSnackbarMessage(err.code); 
+      setSnackbarOpen(true);
     }
   };
 
