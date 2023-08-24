@@ -14,7 +14,7 @@ const SingleNewsCard = ({ newsItem, onClose }) => {
 
     const handleFavoriteToggle = () => {
         setIsFavorite(prevIsFavorite => !prevIsFavorite);
-        // You can add Firebase logic here to update the user's favorite status
+        
     };
     return (
         <Dialog open={true} onClose={onClose} maxWidth="md" fullWidth>
