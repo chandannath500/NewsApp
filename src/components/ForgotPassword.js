@@ -1,7 +1,7 @@
 import React from "react";
 import { sendPasswordResetEmail } from "firebase/auth";
 import { Box, Typography, TextField, Button, IconButton } from "@mui/material";
-import { ArrowBack } from "@mui/icons-material"; // Import the back arrow icon
+import { ArrowBack } from "@mui/icons-material";
 import { database } from "./FirebaseConfig";
 import { useNavigate } from "react-router-dom";
 
