@@ -70,9 +70,9 @@ const NewsCard = () => {
             <Box>
                 <Hidden only="xs">
                     <Box
-                        position="fixed" // Make the toggle button fixed
+                        position="fixed" 
                         marginTop={10}
-                        zIndex={1000} // Set a higher zIndex to ensure it's above other elements
+                        zIndex={1000} 
                     >
                         <ToggleButtonGroup
                             orientation="vertical"
@@ -107,7 +107,7 @@ const NewsCard = () => {
                                         xs: '100%',
                                         maxWidth: '100%',
                                         height: '100%',
-                                        marginLeft: viewMode === 'list' ? 5 : 7, // Adjust marginLeft for list view
+                                        marginLeft: viewMode === 'list' ? 5 : 7, 
                                         '@media (max-width: 600px)': {
                                             marginLeft: 0,
                                         },
@@ -131,7 +131,7 @@ const NewsCard = () => {
                                         <Typography gutterBottom variant="h5" component="div">
                                             {item.title}
                                         </Typography>
-                                        {viewMode === 'grid' && ( // Conditionally render description
+                                        {viewMode === 'grid' && (
                                             <Typography variant="body2" color="text.secondary">
                                                 {item.description}
                                             </Typography>
@@ -153,8 +153,8 @@ const NewsCard = () => {
             </Box>
             {clickedCardId !== null && (
                 <SingleCardView
-                    newsItem={news.articles[clickedCardId]} // Pass the clicked news item to SingleNewsCard
-                    onClose={() => setClickedCardId(null)} // Callback to close the SingleNewsCard
+                    newsItem={news.articles[clickedCardId]} 
+                    onClose={() => setClickedCardId(null)}
                 />
             )}
         </>
