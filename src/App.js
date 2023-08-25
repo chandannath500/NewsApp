@@ -6,10 +6,13 @@ import NewsCard from './components/NewsCard';
 import SignIn from './components/SignIn';
 import SignUp from './components/SignUp';
 import ForgotPassword from './components/ForgotPassword';
+import { QueryClient, QueryClientProvider } from 'react-query'; // Import QueryClient and QueryClientProvider
+
+const queryClient = new QueryClient(); // Create a new QueryClient instance
 
 function App() {
   return (
-    <>
+    <QueryClientProvider client={queryClient}> {/* Wrap your app with QueryClientProvider */}
       <CssBaseline />
       <BrowserRouter>
         <Routes>
@@ -19,7 +22,7 @@ function App() {
           <Route path="/home" element={<Container maxWidth="md"><NewsCard /></Container>} />
         </Routes>
       </BrowserRouter>
-    </>
+    </QueryClientProvider>
   );
 }
 
