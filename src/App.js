@@ -6,13 +6,13 @@ import NewsCard from './components/NewsCard';
 import SignIn from './components/SignIn';
 import SignUp from './components/SignUp';
 import ForgotPassword from './components/ForgotPassword';
-import { QueryClient, QueryClientProvider } from 'react-query'; // Import QueryClient and QueryClientProvider
+import { QueryClient, QueryClientProvider } from 'react-query'; 
 
-const queryClient = new QueryClient(); // Create a new QueryClient instance
+const queryClient = new QueryClient(); 
 
 function App() {
   return (
-    <QueryClientProvider client={queryClient}> {/* Wrap your app with QueryClientProvider */}
+    <QueryClientProvider client={queryClient}> 
       <CssBaseline />
       <BrowserRouter>
         <Routes>
